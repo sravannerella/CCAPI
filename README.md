@@ -7,3 +7,11 @@ Details will be posted soon.
 
 ## Feedback
 - Report bugs in the GitHub issues section
+
+## Running the project
+- Download or clone the project
+- Open your terminal or Command Prompt and navigate to the project folder
+- Execute `npm install` to download dependencies
+- To run the project execute `npm start`
+    * This will open web browser and start the server
+    * IMPORTANT: If browser shows nothing, please refresh the page

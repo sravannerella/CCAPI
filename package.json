@@ -1,0 +1,35 @@
+{
+  "name": "ccapi",
+  "version": "1.0.0",
+  "description": "CCAPI is a new kind of tool which lets you Experience, Build, Connect, and Manage APIs efficiently. We also let the developers customize or configure the tool to their need and also export the APIs in a user preferred programming language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "open http://localhost:8000 && nodemon bin/dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sravannerella/CCAPI.git"
+  },
+  "keywords": [
+    "ccapi",
+    "api",
+    "apimaker",
+    "maker",
+    "dashboard",
+    "manage",
+    "secure",
+    "apis"
+  ],
+  "author": "Sravan Nerella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sravannerella/CCAPI/issues"
+  },
+  "homepage": "https://github.com/sravannerella/CCAPI#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
