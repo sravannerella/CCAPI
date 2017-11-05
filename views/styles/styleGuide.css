@@ -6,7 +6,11 @@ nav .brand-logo {
 }
 
 ul>li>a {
-    color: rgba(0, 0, 0, 0.54);
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.tabs.tabs-transparent .indicator{
+    background-color: black;
 }
 
 .progress{
@@ -17,6 +21,15 @@ ul>li>a {
 .progress .indeterminate{
     background-color: #5c6bc0;
 }
+
+.input-field input[type=text]:focus, .input-field input[type=password]:focus {
+    border-bottom: 1px solid #5c6bc0 !important;
+    box-shadow: 0 1px 0 0 #5c6bc0 !important;
+}
+
+.input-field input:focus + label {
+   color: #5c6bc0 !important;
+ }
 
 body {
     display: flex;

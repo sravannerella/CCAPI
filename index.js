@@ -15,3 +15,7 @@ app.listen(port, function(){
 app.get('/', function(req, resp){
     resp.render('dashboard/index');
 })
+
+app.get('/main', function(req, resp){
+    resp.render('dashboard/main/index');
+})
