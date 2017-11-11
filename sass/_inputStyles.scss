@@ -1,0 +1,12 @@
+@import "_variables";
+
+.input-field {
+    input[type=text]:focus, .input-field input[type=password]:focus {
+        border-bottom: 1px solid $indigo !important;
+        box-shadow: 0 1px 0 0 $indigo !important;
+    }
+
+    input:focus + label {
+        color: $indigo !important;
+      }
+}

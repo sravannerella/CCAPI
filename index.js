@@ -13,9 +13,9 @@ app.listen(port, function(){
 
 // Rendering main page
 app.get('/', function(req, resp){
-    resp.render('dashboard/index');
+    resp.render('login/index');
 })
 
 app.get('/main', function(req, resp){
-    resp.render('dashboard/main/index');
+    resp.render('main/index');
 })

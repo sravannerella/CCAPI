@@ -15,3 +15,9 @@
 * dashboard after login Main page
     - Each view will be separated into multiple views
     - Extended navbar and titles
+
+# Commit 0.0.3
+* Folders restructured
+* Deploy button on nav bar
+* Css moved to Sass
+* Uses gulp to minify and save the CSS
