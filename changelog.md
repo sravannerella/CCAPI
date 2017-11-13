@@ -21,3 +21,9 @@
 * Deploy button on nav bar
 * Css moved to Sass
 * Uses gulp to minify and save the CSS
+
+# Commit 0.0.4
+* Email and Password pattern check
+* Styles are updated
+* Dashboard with sidenav
+* Side-nav with accordion

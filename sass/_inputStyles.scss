@@ -1,12 +1,30 @@
 @import "_variables";
-
 .input-field {
-    input[type=text]:focus, .input-field input[type=password]:focus {
+    input[type=text]:focus,
+    .input-field input[type=password]:focus {
         border-bottom: 1px solid $indigo !important;
         box-shadow: 0 1px 0 0 $indigo !important;
     }
-
-    input:focus + label {
+    input:focus+label {
         color: $indigo !important;
-      }
+    }
+    textarea.materialize-textarea:focus+label {
+        color: $indigo;
+    }
+    textarea.materialize-textarea:focus:not([readonly]) {
+        border-bottom: 1px solid $indigo !important;
+        box-shadow: 0 1px 0 0 $indigo !important;
+    }
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+    color: $black !important;
+}
+
+.select-dropdown li.disabled,
+.select-dropdown li.disabled>span,
+.select-dropdown li.optgroup {
+    color: rgba(0, 0, 0, 0.3) !important;
+    background-color: transparent;
 }
